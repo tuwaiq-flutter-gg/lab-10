@@ -8,14 +8,16 @@ class MyLokal extends Translations{
    "1":"صفحة الدخول",
    "2":"دخول",
    "3":"اليوزر"
-   ,"4":"الباسورد"
+   ,"4":"الباسورد",
+   "5":"العربية"
     },
     "en" :{
        
    "1":"Sign in",
    "2":"SignIn",
    "3":"user",
-   "4":"Pasoward"
+   "4":"Pasoward",
+   "5":"English"
     },
 
   };
