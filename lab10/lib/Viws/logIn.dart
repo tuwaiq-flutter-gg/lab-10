@@ -3,10 +3,15 @@
 
 
 
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
+import 'package:get/state_manager.dart';
 
 import 'package:lab10/combonet/Texst.dart';
+import 'package:lab10/lokal/lokalController.dart';
 
 class LogIn extends StatefulWidget {
   const LogIn({super.key});
@@ -18,9 +23,17 @@ class LogIn extends StatefulWidget {
 class _LogInState extends State<LogIn> {
   @override
   Widget build(BuildContext context) {
+    MyLocaleController controllerLang = Get.find();
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 41, 40, 40),
       body: Column(children: [
+
+        SizedBox(height:50),
+          TextButton(onPressed: (() {
+            controllerLang.changetLang("ar");
+          }),
+           child:Text("5".tr,style: TextStyle(fontSize: 30,color: Colors.white),)),
+             
                    //SizedBox(height:100),
                  Center(
                    child: ClipRRect(child:Image.asset("images/image1.png",
