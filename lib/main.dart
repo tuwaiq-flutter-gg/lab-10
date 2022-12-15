@@ -17,9 +17,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     Get.put(LangControler()); 
     return GetMaterialApp(
-  
+  locale: Get.deviceLocale,
       translations: Trlocal(),
       home: Login(),
     );
   }
 }
+
