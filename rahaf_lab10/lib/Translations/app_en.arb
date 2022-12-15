@@ -1,0 +1,15 @@
+{
+  
+           "Language":"English",
+           "Title": "SignUp",
+           "Username":"Enter User Name",
+           "email":"Enter Email",
+           "password":"Enter Password",
+           "Conpassword":"Confirm Password",
+           "Conditions":"I agree on the Terms & Conditions ",
+           "Signbuttom":"Sign Up",
+           "ForgetPass":"Forgot Password?",
+           "Facebook": "Log In with Facebook",
+           "Apple": "Log In with Apple",
+           "Google":"Log In with Google"
+}
