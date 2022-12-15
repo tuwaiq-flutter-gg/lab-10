@@ -13,6 +13,7 @@ class Languages extends Translations {
           "7": "I agree on the Terms & Conditions and Privacy Policy",
           "8": "Save",
           "9": "Change Language to Arabic",
+          "10": "Create an account",
         },
         "ar_SA": {
           "1": "مرحبا",
@@ -24,6 +25,7 @@ class Languages extends Translations {
           "7": "أوافق على الشروط والاحكام وسياسة الخصوصية ",
           "8": "حفظ",
           "9": "تغيير اللغة الى الانجليزية",
+          "10": "إنشاء حساب جديد",
         },
       };
 }

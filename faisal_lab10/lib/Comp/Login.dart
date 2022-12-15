@@ -72,14 +72,16 @@ class Login extends StatelessWidget {
               Text("7".tr),
             ],
           ),
+          Row(
+            children: [
+              TextButton(child: Text("10".tr), onPressed: () {}),
+            ],
+          ),
           Center(
               child: ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(minimumSize: Size(200, 40)),
                   child: Text("8".tr))),
-          SizedBox(
-            height: 45,
-          ),
           Center(
               child: ElevatedButton(
                   onPressed: () {
