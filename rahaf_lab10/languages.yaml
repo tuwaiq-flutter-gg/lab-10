@@ -1,0 +1,3 @@
+arb-dir: lib/Translations/
+template-arb-file: app_en.arb
+output-localizaion-file: app_localizaion.dart
